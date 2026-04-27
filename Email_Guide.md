@@ -17,6 +17,16 @@ The Email Analysis feature helps mitigate these risks by:
 
 ---
 
+## 🧪 Example Threats
+
+The mailbox includes simulated phishing emails such as:
+- Phishing Attempts
+- Fake login requests
+- Suspicious attachments  
+- Malicious links disguised as legitimate services  
+
+---
+
 ## 🧭 Accessing the Email Analysis Page
 
 Navigate to **"Email Analysis"** from the left sidebar of the application.
@@ -90,6 +100,52 @@ Clicking on a **High-Risk** or **Suspicious** email will display warning message
 - Users are warned before interacting with potentially malicious content  
 
 ---
+## 🚨 Events and Actions
 
-> ⚠️ **Note:**  
-> This system uses a simulated mailbox environment for safe demonstration of email-based threats.
+At the bottom of the Email Analysis page, all detected threat events are displayed in a table.
+
+Each event includes summary information along with two available actions:
+
+- **View**
+- **Acknowledge**
+
+![Email Events Table](./images/image15.png)
+
+---
+
+### 🔍 Viewing Event Details
+
+Click **"View"** on any threat event to open a detailed panel with more information about the detected issue.
+
+![Email Event Details](./images/image16.png)
+
+---
+
+### ⚙️ Available Actions
+
+After reviewing the event details, the following options are available:
+
+![Email Event Actions](./images/image17.png)
+
+- **Acknowledge**  
+  Mark the event as reviewed without taking further action.
+
+- **Delete & Block**  
+  Immediately deletes the email and blocks the sender from future communication.  
+  > ✅ **Recommended action**
+
+- **Block Sender**  
+  Blocks the sender from sending future emails but does not delete the existing email.
+
+- **Mark as Safe**  
+  Reclassifies the email as safe if it has been incorrectly identified (e.g. trusted sender).
+
+---
+
+### ✅ Event Resolution
+
+If any action other than **Acknowledge** is selected, the event status will be updated to:
+
+**Resolved**
+
+![Resolved Email Event](./images/image18.png)
