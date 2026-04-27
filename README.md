@@ -21,6 +21,12 @@ Navigate to **"Malware Detection"** from the left sidebar in the application.
 
 ---
 
+For malware test files, please see the [test files folder](https://github.com/HarveyLawson/a/Malware_Test_Files).
+
+> 💡 These files are safe test samples designed to demonstrate detection functionality. They are **NOT** malicious.
+
+---
+
 ## 📄 Single File Scan
 
 At the top of the page, you will see system statistics followed by the **Single File Scan** section.
