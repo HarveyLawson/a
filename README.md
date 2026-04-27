@@ -99,7 +99,6 @@ Once started:
 - The system will begin scanning immediately  
 - If files are present in the folder, results will appear in the table below  
 
-![Monitoring Results](./images/monitoring-results.png)
 ![Monitoring Results](./images/monitoring-results2.png)
 ---
 
@@ -162,4 +161,4 @@ Once a file is either deleted or restored, the event status will update to:
 
 **Resolved**
 
-![Resolved Event](./images/4.png)
+![Resolved Event](./images/5.png)
