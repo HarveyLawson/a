@@ -100,7 +100,7 @@ Once started:
 - If files are present in the folder, results will appear in the table below  
 
 ![Monitoring Results](./images/monitoring-results.png)
-![Monitoring Results](./images/monitoring-results.png)
+![Monitoring Results](./images/monitoring-results2.png)
 ---
 
 ## ✅ Expected Outcome
