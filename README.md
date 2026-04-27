@@ -113,3 +113,53 @@ Once started:
 
 > ⚠️ **Important:**  
 > Folder monitoring works best when the application is running locally with access to your file system.
+
+
+
+## 🚨 Events and Actions
+
+At the bottom of the Malware Detection page, all detected malware events are displayed in a table with summary details and threat severity.
+
+![Events Table](./images/1.png)
+
+---
+
+### 🔍 Viewing Event Details
+
+Each event includes two actions:
+
+- **View**
+- **Acknowledge**
+
+Click **"View"** to open a detailed panel with more information about the detected threat.
+
+![Event Details Panel](./images/2.png)
+
+---
+
+### ⚙️ Available Actions
+
+After reviewing the event details, the following options are available:
+
+![Event Actions](./images/3.png)
+
+- **Delete File**  
+  Immediately deletes the malicious file.  
+  > ✅ **Recommended action**
+
+- **Acknowledge**  
+  Marks the event as reviewed for later action.
+
+- **Restore File**  
+  Restores the file from quarantine to its original location.  
+  > ⚠️ **Not recommended** — a warning will be shown before proceeding.
+
+---
+
+### ✅ Event Resolution
+
+Once a file is either deleted or restored, the event status will update to:
+
+**Resolved**
+
+![Resolved Event](./images/4.png)
